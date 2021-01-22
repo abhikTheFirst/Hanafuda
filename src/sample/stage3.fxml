@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.fxmlController">
+   <children>
+      <Label alignment="TOP_LEFT" layoutY="1.0" prefHeight="20.0" prefWidth="40.0" text="Rules: " AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label alignment="TOP_LEFT" layoutY="17.0" prefHeight="478.0" prefWidth="500.0" text="There are waffles for days  good sirs &#10; I like them a lot" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <ToggleButton fx:id="Home" layoutX="397.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonAction" text="Home" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

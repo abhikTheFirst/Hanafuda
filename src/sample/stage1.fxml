@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.fxmlController">
+   <children>
+      <ToggleButton fx:id="Play" layoutX="357.0" layoutY="506.0" mnemonicParsing="false" onAction="#buttonAction" text="Play" />
+      <ToggleButton fx:id="Rules" layoutX="353.0" layoutY="423.0" mnemonicParsing="false" onAction="#buttonAction" text="Rules" />
+      <Label layoutX="349.0" layoutY="319.0" text="Hanafuda" />
+   </children>
+
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>
